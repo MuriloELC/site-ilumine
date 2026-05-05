@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Catálogo de luminárias, fitas LED, NeonLED, fontes e soluções decorativas da Ilumine Representações."
+    >
+    <title>Catálogo | Ilumine Representações</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ilumine Representações">
+        <img class="brand-logo" src="assets/img/logo-preta.png" alt="" data-logo>
+        <span class="brand-mark" aria-hidden="true">IL</span>
+        <span class="brand-name">Ilumine Representações</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navegação principal" data-site-nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Catálogo</p>
+        <h1>Catálogo para projetos técnicos, comerciais e decorativos.</h1>
+        <p>
+          Luminárias profissionais, fitas LED, COB, NeonLED, fontes e linhas para vitrines, fachadas, eventos e Natal,
+          com busca por produto, aplicação ou referência.
+        </p>
+      </section>
+
+      <section class="section catalog-section">
+        <div class="catalog-toolbar" aria-label="Filtros do catálogo">
+          <label class="field">
+            <span>Buscar produto</span>
+            <input type="search" placeholder="Nome, referência, aplicação ou destaque" data-catalog-search>
+          </label>
+          <label class="field">
+            <span>Categoria</span>
+            <select data-catalog-category>
+              <option value="">Todas as categorias</option>
+            </select>
+          </label>
+          <p class="catalog-count" data-catalog-count>Carregando catálogo...</p>
+        </div>
+
+        <div class="catalog-grid" data-catalog-list aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Ilumine Representações</strong>
+        <p>Soluções em iluminação técnica, fitas LED, NeonLED, fontes e decoração sazonal para projetos e comércios.</p>
+      </div>
+      <div>
+        <span>WhatsApp</span>
+        <a href="#" data-whatsapp-general>+55 69 98111-1902</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/catalogo.js"></script>
+  </body>
+</html>
