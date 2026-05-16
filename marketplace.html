@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Marketplace da Ilumine Representações para lâmpadas, tomadas, fios, disjuntores e materiais elétricos simples."
+    >
+    <title>Marketplace | Ilumine Representações</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ilumine Representações">
+        <img class="brand-logo" src="assets/img/logo-preta.png" alt="" data-logo>
+        <span class="brand-mark" aria-hidden="true">IL</span>
+        <span class="brand-name">Ilumine Representações</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navegação principal" data-site-nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Marketplace</p>
+        <h1>Itens elétricos simples para pedido rápido.</h1>
+        <p>
+          Lâmpadas, tomadas, fios, disjuntores, interruptores e acessórios para montar um carrinho de orçamento e enviar
+          a lista pelo WhatsApp.
+        </p>
+      </section>
+
+      <section class="section marketplace-section">
+        <div class="marketplace-layout">
+          <div class="marketplace-products">
+            <div class="catalog-toolbar marketplace-toolbar" aria-label="Filtros do marketplace">
+              <label class="field">
+                <span>Buscar item</span>
+                <input type="search" placeholder="Lâmpada, tomada, fio, disjuntor ou acessório" data-marketplace-search>
+              </label>
+              <label class="field">
+                <span>Categoria</span>
+                <select data-marketplace-category>
+                  <option value="">Todas as categorias</option>
+                </select>
+              </label>
+              <p class="catalog-count" data-marketplace-count>Carregando marketplace...</p>
+            </div>
+
+            <div class="catalog-grid marketplace-grid" data-marketplace-list aria-live="polite"></div>
+          </div>
+
+          <aside class="marketplace-cart" aria-label="Carrinho do marketplace">
+            <div class="marketplace-cart-header">
+              <div>
+                <p class="eyebrow">Pedido</p>
+                <h2>Carrinho</h2>
+              </div>
+              <span class="marketplace-cart-count" data-marketplace-cart-count>0 itens</span>
+            </div>
+
+            <div class="marketplace-cart-list" data-marketplace-cart-list aria-live="polite">
+              <p class="state-message">Seu carrinho está vazio.</p>
+            </div>
+
+            <div class="marketplace-cart-summary">
+              <span>Total estimado</span>
+              <strong data-marketplace-cart-total>R$ 0,00</strong>
+            </div>
+
+            <div class="marketplace-cart-actions">
+              <a class="button button-primary is-disabled" href="#" data-marketplace-send>Enviar pedido pelo WhatsApp</a>
+              <button class="button marketplace-clear" type="button" data-marketplace-clear>Limpar carrinho</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Ilumine Representações</strong>
+        <p>Soluções em iluminação técnica, fitas LED, NeonLED, fontes e decoração sazonal para projetos e comércios.</p>
+      </div>
+      <div>
+        <span>WhatsApp</span>
+        <a href="#" data-whatsapp-general>+55 69 98111-1902</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/marketplace.js"></script>
+  </body>
+</html>

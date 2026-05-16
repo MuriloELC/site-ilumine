@@ -1,0 +1,134 @@
+[
+  {
+    "id": "lampada-led-12w-e27",
+    "nome": "Lâmpada LED 12W E27",
+    "categoria": "Lâmpadas",
+    "descricao": "Lâmpada LED econômica para ambientes residenciais, comerciais e reposições rápidas.",
+    "preco": 19.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["12W", "Base E27", "Bivolt", "Luz branca ou quente"],
+    "estoqueOpcional": 120
+  },
+  {
+    "id": "painel-led-24w-embutir",
+    "nome": "Painel LED 24W de Embutir",
+    "categoria": "Lâmpadas",
+    "descricao": "Painel LED para forros e ambientes internos que precisam de iluminação uniforme.",
+    "preco": 64.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["24W", "Embutir", "Bivolt", "Luz difusa"],
+    "estoqueOpcional": 48
+  },
+  {
+    "id": "cabo-flexivel-25mm-rolo-100m",
+    "nome": "Cabo Flexível 2,5mm 100m",
+    "categoria": "Cabos e Fios",
+    "descricao": "Rolo de cabo flexível para instalações elétricas de tomadas e circuitos de uso geral.",
+    "preco": 249.9,
+    "unidade": "rolo",
+    "imagem": "",
+    "destaques": ["2,5mm", "100 m", "750V", "Cores sob consulta"],
+    "estoqueOpcional": 22
+  },
+  {
+    "id": "fio-paralelo-15mm-rolo-50m",
+    "nome": "Fio Paralelo 1,5mm 50m",
+    "categoria": "Cabos e Fios",
+    "descricao": "Fio paralelo para luminárias, extensões leves e pequenos pontos de alimentação.",
+    "preco": 89.9,
+    "unidade": "rolo",
+    "imagem": "",
+    "destaques": ["1,5mm", "50 m", "Uso leve", "Instalação prática"],
+    "estoqueOpcional": 35
+  },
+  {
+    "id": "interruptor-simples-10a",
+    "nome": "Interruptor Simples 10A",
+    "categoria": "Interruptores",
+    "descricao": "Interruptor simples para acionamento de pontos de luz em ambientes internos.",
+    "preco": 12.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["10A", "250V", "Branco", "Com placa"],
+    "estoqueOpcional": 90
+  },
+  {
+    "id": "kit-interruptor-paralelo",
+    "nome": "Kit Interruptor Paralelo",
+    "categoria": "Interruptores",
+    "descricao": "Kit para controle de iluminação em dois pontos, indicado para corredores e quartos.",
+    "preco": 29.9,
+    "unidade": "kit",
+    "imagem": "",
+    "destaques": ["3-way", "Com placa", "Branco", "Instalação residencial"],
+    "estoqueOpcional": 40
+  },
+  {
+    "id": "tomada-2p-t-20a",
+    "nome": "Tomada 2P+T 20A",
+    "categoria": "Tomadas",
+    "descricao": "Tomada padrão brasileiro para eletrodomésticos e pontos de maior demanda.",
+    "preco": 16.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["20A", "250V", "2P+T", "Com placa"],
+    "estoqueOpcional": 85
+  },
+  {
+    "id": "tomada-dupla-usb",
+    "nome": "Tomada Dupla com USB",
+    "categoria": "Tomadas",
+    "descricao": "Tomada com entradas USB para carregamento prático em residências, escritórios e lojas.",
+    "preco": 49.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["2P+T", "USB", "Bivolt", "Com placa"],
+    "estoqueOpcional": 32
+  },
+  {
+    "id": "disjuntor-din-32a",
+    "nome": "Disjuntor DIN 32A",
+    "categoria": "Disjuntores",
+    "descricao": "Disjuntor termomagnético para proteção de circuitos elétricos em quadros padrão DIN.",
+    "preco": 34.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["32A", "Curva C", "Padrão DIN", "Monopolar"],
+    "estoqueOpcional": 55
+  },
+  {
+    "id": "disjuntor-din-63a-bipolar",
+    "nome": "Disjuntor DIN 63A Bipolar",
+    "categoria": "Disjuntores",
+    "descricao": "Disjuntor bipolar para circuitos de maior capacidade em instalações residenciais e comerciais.",
+    "preco": 78.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["63A", "Bipolar", "Curva C", "Padrão DIN"],
+    "estoqueOpcional": 24
+  },
+  {
+    "id": "chave-teste",
+    "nome": "Chave Teste",
+    "categoria": "Ferramentas",
+    "descricao": "Ferramenta simples para identificação de fase em manutenções e instalações elétricas.",
+    "preco": 9.9,
+    "unidade": "un",
+    "imagem": "",
+    "destaques": ["Uso manual", "Compacta", "Para manutenção", "Baixo custo"],
+    "estoqueOpcional": 70
+  },
+  {
+    "id": "kit-chave-isolada",
+    "nome": "Kit Chave Isolada",
+    "categoria": "Ferramentas",
+    "descricao": "Conjunto de chaves isoladas para apoio em instalações e manutenções elétricas.",
+    "preco": 69.9,
+    "unidade": "kit",
+    "imagem": "",
+    "destaques": ["Isolada", "Kit básico", "Uso profissional", "Manutenção elétrica"],
+    "estoqueOpcional": 18
+  }
+]

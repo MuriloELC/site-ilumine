@@ -8,6 +8,7 @@ Site institucional estático para validação com cliente, apresentando a Ilumin
 ilumine-site/
   index.html
   catalogo.html
+  marketplace.html
   sobre.html
   contato.html
   README.md
@@ -22,8 +23,10 @@ ilumine-site/
     js/
       main.js
       catalogo.js
+      marketplace.js
     data/
       produtos.json
+      marketplace-produtos.json
 ```
 
 ## Como rodar localmente
@@ -77,6 +80,33 @@ Ao adicionar um produto, mantenha:
 
 O catálogo atual reúne os produtos HDA do blueprint inicial e famílias/itens comerciais extraídos do `CATÁLOGO 2026 LUMUS DIGITAL`, mantendo as referências pesquisáveis dentro do campo `referencias`.
 
+## Como editar o marketplace
+
+Edite o arquivo:
+
+```text
+assets/data/marketplace-produtos.json
+```
+
+Cada item simples usa este formato:
+
+```json
+{
+  "id": "lampada-led-12w-e27",
+  "nome": "Lâmpada LED 12W E27",
+  "categoria": "Lâmpadas",
+  "descricao": "Descrição curta do item.",
+  "preco": 19.9,
+  "unidade": "un",
+  "imagem": "",
+  "destaques": ["12W", "Base E27", "Bivolt"],
+  "estoqueOpcional": 120
+}
+```
+
+O carrinho do marketplace fica salvo no navegador com a chave `ilumine-marketplace-cart` e o fechamento continua pelo WhatsApp.
+Quando houver imagem oficial, preencha `imagem` com o caminho dentro de `assets/img/produtos/`; se ficar vazio, o card usa o fallback visual.
+
 ## Imagens e logos
 
 Os caminhos previstos são:
@@ -127,8 +157,11 @@ Os botões do catálogo montam o link automaticamente com o nome do produto e co
 ## Validação sugerida
 
 - Abrir `index.html`, `sobre.html`, `catalogo.html` e `contato.html` pelo servidor local.
-- Confirmar que o catálogo carrega os 14 produtos.
+- Abrir `marketplace.html` e confirmar que os itens simples carregam.
+- Confirmar que o catálogo carrega os produtos técnicos.
 - Testar busca e filtro de categoria.
+- Adicionar, remover e alterar quantidades no carrinho do marketplace.
+- Conferir se o botão de WhatsApp do marketplace monta a mensagem com itens, quantidades e total.
 - Clicar em "Solicitar orçamento" e conferir se o WhatsApp abre com a mensagem correta.
 - Reduzir a largura da janela para validar o layout mobile.
 - Inserir uma imagem real de produto e confirmar que ela substitui o fallback automaticamente.
